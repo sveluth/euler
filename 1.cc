@@ -10,9 +10,11 @@ double summultiple(int n)
 	result = ( maxfactor * (maxfactor + 1) * n ) / 2;
 	return result;
 }
+
 int main()
 {
 	double sum = 0;
 	sum= summultiple(3) + summultiple(5) - summultiple(15);
 	cout << "ANSWER : "<< sum << "\n";
+	return 0;
 }
